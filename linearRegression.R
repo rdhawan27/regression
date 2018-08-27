@@ -1,3 +1,5 @@
+# Least sum of square is shown by the mean
+
 x<-c(0.725,0.429,-0.372 ,0.863)
 
 mu=mean(x)
@@ -13,6 +15,8 @@ for (i in x) {
 }
 
 print(a)
+
+#Weighted means , Least Sum of sqaure
 
 w = c(2, 2, 1, 1)
 print(length(w))
